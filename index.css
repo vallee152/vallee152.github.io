@@ -1,4 +1,4 @@
-html, table .indextable {
+html {
 	background-color: #0f644d;
 }
 
@@ -14,7 +14,7 @@ header img {
 	border: 2px solid #B0EFDE;
 }
 
-td {
+table.indextable td {
 	padding: .5em 3em;
 	float: center;
 	text-align: center;
@@ -28,9 +28,10 @@ td {
 main {
 	width: 100%;
 }
+
 .left {
 	background-color: #0f644d;
-	color: #0ed39e;
+	color: #0f644d;
 	float: left;
 	width: 6.3%;
 	height: 100%;
@@ -104,4 +105,34 @@ p {
 	background-color: #FFFFFF;
 	color: #880000;
 	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.attribution {
+	font-size: 10px;
+}
+
+.socialtable {
+	width: 100%;
+	
+}
+
+.socialtable img {
+	height: 11pt;
+	padding: 0 5px;
+}
+
+.socialtable a:link {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	float: center;
+	padding: 5px 1%;
+}
+
+.socialtable a:visited {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	float: center;
+	padding: 5px 1%;
 }
