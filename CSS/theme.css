@@ -1,6 +1,6 @@
 html {
 	background-color: #1ea843;
-	font-family:Arial;
+	font-family: Arial;
 }
 
 header {
@@ -15,10 +15,6 @@ header img {
 	border: 2px solid #B0EFDE;
 }
 
-body#sitelenpona {
-	font-family:linja-pona-4.9
-}
-
 table.indextable td {
 	padding: .5em 3em;
 	float: center;
@@ -28,7 +24,6 @@ table.indextable td {
 	border-width: 2px;
 	border-color: black;
 }
-
 
 main {
 	width: 100%;
@@ -63,74 +58,104 @@ p {
 	width: 7.5%;
 	border-radius: 25%;
 	font-size: 50px;
-	margin-top:1.25%;
+	margin-top: 1.25%;
 }
 
-.imgLeft {
-	margin-left:10%;
-	float:left;
-	width:20%;
+.imgleft {
+	margin-left: 10%;
+	float: left;
+	width: 20%;
 }
 
-.imgRight {
-	margin-right:10%;
-	float:right;
-	width:30%;
+.imgright {
+	margin-right: 10%;
+	float: right;
+	width: 30%;
 }
 
-.parLeft {
-	padding-left:24em;
+.parleft {
+	padding-left: 24em;
 	padding-right: 2em;
 }
 
-.parRight {
-	padding-right:32em;
+.parright {
+	padding-right: 32em;
 	padding-left: 2em;
 }
 
-.besideGImg {
-	float:left;
+.besidegimg {
+	float: left;
 	margin-left:5%;
 }
 
-.besideLImg {
-	float:right;
-	margin-right:5%;
+.besidelimg {
+	float: right;
+	margin-right: 5%;
 }
 
 .btt {
 	position: relative;
 	color: #0ed39e;
-	bottom:-135em;
-	left:0;
+	bottom: -135em;
+	left: 0;
 }
 
 .attribution {
 	font-size: 10px;
 }
 
-.socialtable {
+.mediatable {
 	width: 100%;
-	
+	display: block;
+	overflow: auto;
 }
 
-.socialtable img {
-	height: 11pt;
+.mediatable a {
+	width: 100pt;
+	float: left;
+}
+
+.mediatable table {
+	min-width: 100pt;	
+	max-width: 100pt;
+	min-height: 150pt;
+}
+
+.mediatable td {
+	text-align: center;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.mediatable img {
+	max-width:100%;
+	max-height:100%;
 	padding: 0 5px;
 }
 
-.socialtable a:link {
+.mediatable a:link {
 	text-decoration: none;
 	color: black;
-	display: inline-block;
+	float: center;
+	padding: 5px 1%;
+	white-space: nowrap;
+}
+
+.mediatable a:visited {
+	text-decoration: none;
+	color: black;
 	float: center;
 	padding: 5px 1%;
 }
 
-.socialtable a:visited {
-	text-decoration: none;
-	color: black;
-	display: inline-block;
-	float: center;
-	padding: 5px 1%;
+.tg {
+	text-align: center;
+}
+
+textarea#translationbox{
+	width: 80%;
+	height: 140pt;
+	font-size: 12pt;
+	resize: none;
+	font-family: Arial;
 }
