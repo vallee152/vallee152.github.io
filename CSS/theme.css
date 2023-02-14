@@ -133,7 +133,8 @@ p {
 	padding: 0 5px;
 }
 
-.mediatable a:link {
+.mediatable a:link,
+.blacklink:link {
 	text-decoration: none;
 	color: black;
 	float: center;
@@ -141,7 +142,8 @@ p {
 	white-space: nowrap;
 }
 
-.mediatable a:visited {
+.mediatable a:visited,
+.blacklink:visited {
 	text-decoration: none;
 	color: black;
 	float: center;
